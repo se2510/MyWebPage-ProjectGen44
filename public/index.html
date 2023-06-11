@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deivi's Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://media.licdn.com/dms/image/C4E03AQHHKyQ6SECFzg/profile-displayphoto-shrink_800_800/0/1625735459399?e=2147483647&v=beta&t=-kHi3CCKoC3fvkb5CsiY_sM7GIhDIJNpDrTD8MYSKi4" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>INICIO</p>
+  </a>
+  <a href="#acerca" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ACERCA</p>
+  </a><a href="#chisme" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-coffee w3-xxlarge"></i>
+    <p>CHISMES</p>
+  </a>
+  <a href="#videojuegos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gamepad w3-xxlarge"></i>
+    <p>VIDEOJUEGOS</p>
+  </a>
+  <a href="#artistas" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>ARTISTAS FAV</p>
+  </a>
+  <a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACTO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
+    <a href="#acerca" class="w3-bar-item w3-button" style="width:25% !important">ACERCA</a>
+    <a href="#chisme" class="w3-bar-item w3-button" style="width:25% !important">CHISME</a>
+    <a href="#videojuegos" class="w3-bar-item w3-button" style="width:25% !important">VIDEOJUEGOS</a>
+    <a href="#artistas" class="w3-bar-item w3-button" style="width:25% !important">ARTISTAS FAV</a>
+    <a href="#contacto" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Soy</span> Deivi :)</h1>
+    <p>Estudiante de ingeniería eléctrica electrónica.</p>
+    <img src="https://media.licdn.com/dms/image/C4E03AQHHKyQ6SECFzg/profile-displayphoto-shrink_800_800/0/1625735459399?e=2147483647&v=beta&t=-kHi3CCKoC3fvkb5CsiY_sM7GIhDIJNpDrTD8MYSKi4" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- Seccion "acerca" -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="acerca">
+    <h2 class="w3-text-light-grey">Deivi</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+      Hola!, soy David Elias González García. Estudihambre de la facultad de ingeniería UNAM. Me gusta la programación, las garnachas y el agua de horchata. Si pudiera pedir algún deseo, sería que todas las personas que quiero sean muy felices, además de que mi gatita regrese conmigo. Soy diamanco en Valorant, me encantan los videojuegos, competitivos o no, siempre juego de chill dando lo mejor de mi!
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Habilidades</h3>
+    <p class="w3-wide">Dormir</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+    </div>
+    <p class="w3-wide">DPS en Valorant</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">JavaScript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div><br>
+    <p class="w3-wide">C / C++</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div><br>
+    <p class="w3-wide">Python</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div><br>
+    <p class="w3-wide">Docker</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:5%"></div>
+    </div><br>
+    <p class="w3-wide">Inglés</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    <p class="w3-wide">Japonés</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:20%"></div>
+    </div><br>
+    <p class="w3-wide">Excel</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+    </div><br>
+    <p class="w3-wide">Ganas de aprender</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">-3</span><br>
+        Horas dormidas
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Proyectos hechos
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">999+</span><br>
+        Cafés tomados
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Materias salvadas
+      </div>
+    </div>
+    
+  <!--
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  -->
+    
+    <!-- Seccion chismesito -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="chisme">
+    <h2 id="chismesito" class="w3-text-light-grey w3-animate-zoom">Chismesitos</h2>
+    <script>
+      var titulo = document.getElementById('chismesito');
+
+      titulo.addEventListener('mouseover', function() {
+        titulo.classList.add('w3-animate-zoom');
+      });
+
+      titulo.addEventListener('mouseout', function() {
+        titulo.classList.remove('w3-animate-zoom');
+      });
+    </script>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+      Pues la verdad es que:
+        <ul>
+          <img src="https://media2.giphy.com/media/TlMiEOESAWkrKPfHVU/giphy.gif?cid=ecf05e47szy5ibi9oirkmusgc2af5a0kyuhuajt0dvd5gf0c&ep=v1_gifs_related&rid=giphy.gif&ct=s" align="right" style="width:10%">
+        <li>Me gustan las conchas blancas, no de chocolate, aunque prefiero las gorditas de nata.</li>
+        <li>Odio el calor</li>
+        <li>Me aburre hacer bases de datos</li>
+        <li>Mi crush es de la competencia: UNICA</li>
+        <li>De grande quiero ser taquero</li>
+        <li>Considero que todos los becarios de PROTECO son bien pros :0</li>
+        <li>Antes quería ser violinista y físico, pero por azares del destino, aquí estoy.</li>
+        <li>Le doy clases de violín a mi hermanita</li>
+        <li>Ingeniero eléctrico electrónico frustrado, prefiero la ingeniería en computación/software</li>
+        <li>Me aburre hacer bases de datos</li>
+        <li>Soy re stalker</li>
+        <li>Kenshi Yonezu (mi artista favorito) nació el mismo día y mes que yo (10 de Marzo)</li>
+        <li>Fuí a CCH vallejo, y fué la mejor época de mi vida hasta ahora.</li>
+        <li>He chocado una vez, le di un llegue a un don por andar viendo el cel porque no sabía para donde tenía que ir. Desde entonces estoy traumado aunque en ese momento no pasó a mayores.</li>
+        <li>Siempre había querido estudiar programación para desarrollar videojuegos.</li>
+        <li>Cuando era niño tenía libretas con bocetos y diseños de videojuegos (hoy en día sigo haciéndolos aunque no desarrolle ninguno)</li>
+        <li>Me encanta la ilustración digital, prácticamente uso instragram y twitter para ver ilustraciones de artistas variados.</li>
+        <li>Vivan las chicas góticas/darks! :3 jajaja</li>
+        <li>Me aburre hacer bases de datos</li>
+        <li>De chico, era emprendedor, vendia muchas cosas en primaria. Mi negocio más próspero fué el de unos muñecos de papel armables, donde me alié con mi primo, el cual los vendía, y yo editaba las imágenes, donde les quitaba la marca de agua para que los clientes no supieran de dónde sacamos las imágenes y ellos no pudieran hacerlos. El negocio cerró porque imprimiamos personajes que nos gustaban a nosotros, mas no a la clientela XD.</li>
+        <li>También tuve negocios de avioncitos de papel, dibujos, entre otros. Era cuando estaba en 4to-5to de primaria aprox.</li>
+        <li>En 6to de primaria, fundé el club del chile, donde todos los integrantes comíamos mucho chile de manera exagerada. Hasta le compramos el bote de chile al don de la cooperativa. El club fué clausurado por el director de la escuela porque era dañino para nosotros.</li>
+        <img src="https://media4.giphy.com/media/1Gl7sFoJssmTnX74BE/giphy.gif?cid=ecf05e47a832t406vnal9veddaily31cccqdk4rktnj134pn&ep=v1_stickers_search&rid=giphy.gif&ct=s" align="right" style="width:20%">
+        
+        <li>Adoro el café. Ahora siempre cargo conmigo un botesito con café soluble, para hacerlos cuando tenga sueño y no me duerma en las clases.</li>
+        <li>Prefiero estar en mi casa que salir a fiestas o reuniones. Es muy cómodo para mi, pero aveces creo que debo salir y cuidar mis amistades.</li>
+        <li>Antes contestaba los mensajes muy rápido, pero mi ex me hizo tanto daño que ahora tardo años en contestar, fué como un efecto colateral de la relación.</li>
+        <li>Canto y toco la guitarra, me encanta la producción musical.</li>
+        <li>Mi dulce favorito es el manguito con chile.</li>
+        <li>Tenía un súper crush en la actriz Ellen Page. Luego se declaró lesbiana y sentí tristeza por mi, pero felicidad por ella. Luego se declaró hombre y desde entonces ya no tengo una crush a la cual rezarle.</li>
+        <li>Si tuviera un superpoder sería ser BATMAN. Batman es mi superhéroe favorito.</li>
+        <li>El tiempo en el que voy en el metro o en la combi, es el tiempo en el que escucho música, para mi es sagrado.</li>
+        <li>Comencé a estudiar ruso hace dos años en forma de broma, porque las chicas rusas son bien bonitas. Hoy en día quiero estudiarlo seriemente porque se me hace un idioma muy bonito.</li>
+        <li>En el CCH aprendí a tocar violín y era un tipo "prodigio", avanzaba muy rápido en mis lecciones, tanto que mis compañeros y profesor me decían "Estrellita". Pero era muy flojo y ni practicaba, entonces llegó el momento en el que comenzó a darme trabajo tocar algunas piezas complejas, pero como no practicaba mi profesor me corrió de su clase y me dijo "No regreses a menos que decidas que quieras tocar", me descepcionó porque igual le ayudaba a dar clases. Entonces me robé algunos de sus alumnos.</li>
+        <li>A mis tres años tarántulas recorrieron mi cuerpo, dejandome manchitas de sangre. Me traumó tanto que sigo recordándolo.</li>
+        <li>Hasta ahora he tenido 4 noviesitas. Soy Heterosexual.</li>
+        <li>Adoro los gatitos. Tuve una gatita llamada Valkyria, con la cual hice click, y era la gatita perfecta. Pero me abandonó porque le fallé.</li>
+        <li>Al darme COVID perdí el olfato y el gusto. Cuando me regresaron los sentidos, regresaron distorsionados.</li>
+        <li>Me aburre hacer bases de datos</li>
+
+
+      </ul>
+
+    </p>
+
+
+<div class="w3-row w3-center">
+  <div class="w3-third">
+    <a href="anime.html">
+      <div class="w3-display-container">
+        <i class="fa fa-television w3-jumbo w3-hover-opacity"></i>
+        <p class="w3-margin-top">Anime</p>
+      </div>
+    </a>
+  </div>
+  <div class="w3-third">
+    <a href="secret.html">
+      <div class="w3-display-container">
+        <i class="fa fa-user-secret w3-jumbo w3-hover-opacity"></i>
+        <p class="w3-margin-top">Secreto</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+    
+      <!-- Seccion chismesito -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="videojuegos">
+    <h2 id="videojuego" class="w3-text-light-grey w3-animate-zoom">Videojuegos</h2>
+    <script>
+      var titulo = document.getElementById('videojuego');
+
+      titulo.addEventListener('mouseover', function() {
+        titulo.classList.add('w3-animate-zoom');
+      });
+
+      titulo.addEventListener('mouseout', function() {
+        titulo.classList.remove('w3-animate-zoom');
+      });
+    </script>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-24 w3-text-light-grey">Favoritos!</h3>  
+    <img src="https://yt3.googleusercontent.com/LV3BNWAe5ZCyX5rPwOVG2-b8InuAHNwIbOOe3ERJTSz2yXoCr_3OARIFoSYqe40_rR5ni779=s900-c-k-c0x00ffffff-no-rj" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Valorant</span> FPS.</p>
+    <p>Juego de disparos en primera persona para computadoras.</p><br>
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/600px-Overwatch_circle_logo.svg.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Overwatch </span> FPS.</p>
+    <p>Juego de disparos en primera persona para consolas y PC.</p><br>
+
+    <img src="https://scontent.fmex23-1.fna.fbcdn.net/v/t39.30808-6/294170311_447894830680052_5181324825279605052_n.png?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGQLI05crtq-ppFGPbC437H-pMktjFRr8f6kyS2MVGvx2IVG16Nj4J5VVGhofFRpTF4LLkgIPqP4qmPkSGC_Goa&_nc_ohc=UpycnMmaPKYAX8J3Sz2&_nc_ht=scontent.fmex23-1.fna&oh=00_AfAoG3KGWp8qGx7QrubQ7Q5aAOuiiFosik-ieg-lVCSt9g&oe=6488F6DD" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Bloons TD6 </span> Tower Defense.</p>
+    <p>Juego de torres desplegables para todos los dispositivos.</p><br>
+
+    <img src="https://i.pinimg.com/originals/11/18/e1/1118e1246d0d22371faf4eae6d5ddb1f.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Borderlands </span> FPS.</p>
+    <p>Juegos de disparos en primera persona con generación de loot aleatorio para consolas y PC.</p><br>
+
+    <img src="https://static.wikia.nocookie.net/dont-starve-game/images/c/c9/Logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Don't Starve </span> Survival.</p>
+    <p>Juego de supervivencia para consolas y PC.</p><br>
+
+    <img src="https://play-lh.googleusercontent.com/BV7jLktLchOTSDPDCjggPrZcRrV9abWjB4pXxAQ0Rv3OTAtJPGWaYEFnPyChWUdRxPY" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Fallout </span> FPS / RPG.</p>
+    <p>Juegos de disparos en primera persona con mecánicas por turnos, para computadoras y consolas.</p><br>
+
+    <img src="https://i.pinimg.com/640x/50/48/4e/50484e200ca57a38f67cf6104158b877.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">The Legend of Zelda </span> Aventura.</p>
+    <p>Saga de juegos de aventura para las consolas de nintendo.</p><br>
+  <!-- End About Section -->
+
+  
+  <!-- Seccion de artistas favs ------------------------------------------------------------------- -->
+  <div class="w3-padding-64 w3-content" id="artistas">
+    <h2 class="w3-text-light-grey">Artistas favoritos <3</h2>
+    <hr style="width:350px" class="w3-opacity">
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">Kenshi Yonezu</h3>
+    
+    <p>
+      Kenshi Yonezu (米津玄師 Yonezu Kenshi?) (Tokushima, Japón, 10 de marzo de 1991) es un músico y compositor japonés, quien comenzó creando música con Vocaloid bajo el nombre artístico de Hachi (ハチ), haciéndose conocido por canciones como Musunde Hiraite Rasetsu to mukuro, Matryoshka y Panda Hero. En 2012, debutó como solista bajo su nombre real y utilizando por su propia voz. 
+      
+    </p> <br>
+    <div>
+        <img src="https://www.billboard.com/wp-content/uploads/2022/11/Kenshi-Yonezu-Main-Photo-2022-billboard-1548.jpg" style="width:100%">
+    </div>
+    <br>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://img1.ak.crunchyroll.com/i/spire2/1249096c2647acff7c9157c00c0d4fb51649374948_main.jpg" style="width:100%">
+        <img src="https://pbs.twimg.com/media/EzNw-AaVIAMANN3.jpg" style="width:100%">
+        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t39.30808-6/341308960_963325681777018_514766482816565337_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH49UUUcLqU6X5b5If3ug3bvPxki93U5k-8_GSL3dTmT9ULHZtG_GPPhW2BZ-c1UwBGWHyNtVt1_Rc5p_aN9Ox0&_nc_ohc=pE5FDWFV_I4AX92q6C2&_nc_ht=scontent.fmex5-1.fna&oh=00_AfDt-PmO4ozf8Rk2VP7AGeBfhIV_pN_pP1hDQz3UjIvRUg&oe=64893F57" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://kmagazine.mx/wp-content/uploads/2021/07/kenshi-yonezu-tracks.png" style="width:100%">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDQzMDUyMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc0NDc4NTk5NH0.ZK3Dbig_rnHZdBoGO7scG2SY-6VaGqe8w1Z05y5nmyw/img.jpg?width=1200&height=600&quality=85&coordinates=0%2C415%2C0%2C446" style="width:100%">
+        <img src="https://infomedios.org/wp-content/uploads/2021/05/Biografia-de-Kenshi-Yonezu1-min.jpg" style="width:100%">
+        <img src="https://scontent.fmex31-1.fna.fbcdn.net/v/t1.6435-9/188709990_147247077385165_4217196909512275882_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG7I8Bq_TRz04PeBLdWg-Vqb8bepvr86PJvxt6m-vzo8gfhtiPBfWkxGqiVRkYWEDvzVWB7j9CfMLpwCuRq7Aly&_nc_ohc=X_VqoUk9qWIAX_3AHPq&_nc_ht=scontent.fmex31-1.fna&oh=00_AfCJIqpymMr9zeaYwR8cmQ5NYBcTcANa3eyZoEDIJhIu8A&oe=64AB877E" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+    
+    <p>
+      
+      En marzo de 2011, Yonezu y otros siete músicos crearon Balloom, un sello de música independiente para músicos de internet con el objeto de ampliar sus oportunidades en el mercado musical. En 2012, lanza su álbum debut Diorama , llegando al puesto n°6 en el ranking de Oricon y vendiendo más de 45.000 copias, convirtiéndose en el mayor lanzamiento de Balloom hasta la fecha. Yonezu fue contratado por Universal Sigma y debutó, bajo esta discográfica, en mayo de 2013 con el sencillo Santa Maria. En octubre de 2013, lanza su segundo single MAD HEAD LOVE/Poppin' Apathy.
+
+El 28 de octubre de 2013, después de haberse ausentado por casi 2 años y medio, Yonezu vuelve a subir a Nicovideo una canción utilizando Vocaloid y ocupando por primera vez una banda en la grabación de esta. Donut Hole alcanzó en una semana las 400.000 reproducciones en Nicovideo y, en diciembre del mismo año, la canción entra a la categoría de canciones legendarias de Vocaloid, alcanzando un millón de visitas.
+
+Kenshi Yonezu lanza su segundo álbum YANKEE el 23 de abril de 2014, alcanzando la posición n°2 en el ranking de OriconOricon y vendiendo más de 77,000 en su primera semana. El 27 de junio realiza su primer concierto en solitario. El 14 de enero de 2015, lanza su tercer single Flowerwall'Flowerwall
+
+Su tema Orion es ending de la serie Sangatsu no Lion a partir de enero de 2017.
+
+Interpreta el opening de la segunda temporada de la serie My Hero Academia, Peace Sign. El tema fue el segundo más vendido en su semana de lanzamiento en Japón, sumando 58.686 copias vendidas.
+
+En 2022, Yonezu lanzó "Kick Back", que se utilizó como tema de apertura de la serie de anime Chainsaw Man
+    </p> <br>
+
+    <div class="w3-container w3-center">
+      <div class="w3-card-4 w3-responsive">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/UFQEttrn6CQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  <br>
+
+      <h3 class="w3-padding-16 w3-text-light-grey">E ve</h3>
+    
+    <p>
+      Eve (いぶ; Prefectura de Tokushima, 23 de mayo), es un cantautor y mangaka japonés. 
+    </p> <br>
+    <div>
+        <img src="https://lh3.googleusercontent.com/1BFQt988LS_GupMk7K8412eq4Pa4A_vD5DD8wPqzNSqvwuFTRrXJ87XukcxTUrKAbMeE6M6MHXA_3Q=w2880-h1200-p-l90-rj" style="width:100%">
+    </div>
+    <br>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/c3e896248b58b8fd16614a66fa32de35.jpg#c3e896248b58b8fd16614a66fa32de35" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/d51603e7930e0e069d0f7d7a24736f63.jpg#d51603e7930e0e069d0f7d7a24736f63" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/623544bf2e803e39c9db22da8488e2ce.jpg#623544bf2e803e39c9db22da8488e2ce" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/585bae4fe815e83d6d978a790e1b613c.jpg#585bae4fe815e83d6d978a790e1b613c" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/3192eb536aa38082aabc6f2147cd4110.jpg#3192eb536aa38082aabc6f2147cd4110" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/5cf88fa4fd5a2a7ecb0b188894bd77b5.jpg#5cf88fa4fd5a2a7ecb0b188894bd77b5" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+    <p>
+      Después de 2 álbumes de música auto-producidos, Eve lanzó en distribución nacional el álbum OFFICIAL NUMBER. El álbum independiente Bunka lanzado el 13 de diciembre de 2017 fue su primer álbum totalmente compuesto por él mismo, Dramaturgy que se incluyó en este álbum, ha superado los 100 millones de reproducciones. Su número de suscriptores en YouTube supera los 3,5 millones. Los espectáculos en vivo de un solo hombre en 2018, 2019, incluida la winter tour 2019-2020 turbulent dining table, movilizaron a 12,000 personas. Las entradas se agotaron de inmediato. El 6 de febrero de 2019, se lanzó el álbum Otogi, Smile lanzado el 12 de febrero de 2020 ganó el segundo lugar en la lista de álbumes de Oricon y Kaikai Kitan/Ao no Waltz lanzado el 23 de diciembre de 2020 ganó el primer lugar, y la canción grabada "Kaikai Kitan" superó los 250 millones de reproducciones, y tan solo en YouTube superó los 200 millones de reproducciones. 
+
+    </p> <br>
+    
+    <div class="w3-container w3-center">
+      <div class="w3-card-4 w3-responsive">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/jJzw1h5CR-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <br>
+
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Vaundy</h3>
+    
+    <p>
+      Vaundy (Tokio, 6 de junio de 2000) es un músico y compositor japonés. 
+    </p> <br>
+    <div>
+        <img src="https://corekike.com/wp-content/uploads/2021/11/vaundy-image.png" style="width:100%">
+    </div>
+    <br>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://i.scdn.co/image/ab6761610000e5eb104822dfaac494e992c7e3f6" style="width:100%">
+        <img src="https://stat.ameba.jp/user_images/20200530/12/searon/99/f3/j/o1440215814766407638.jpg" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/b0166f69fba6bc1d48a9b06e3c3ae7d6.jpg#b0166f69fba6bc1d48a9b06e3c3ae7d6" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/1f22e179f12cc60da4512b07f3a9e010.jpg#1f22e179f12cc60da4512b07f3a9e010" style="width:100%">
+        <img src="https://www.letrasboom.com/thumbs/artistas/img_1665667239.jpg" style="width:100%">
+        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/9e2e14c2f17d420440932f7790c8a90b.jpg#9e2e14c2f17d420440932f7790c8a90b" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+    <p>
+      Antes de dedicarse profesionalmente a la música, aprendió a componer para otros artistas con programas digitales como Cubase y Vocaloid. También ha estudiado en una academia de música en Azabu-Jūban, y cursa una carrera universitaria de diseño. Su madre era intérprete de jazz.
+
+En junio de 2019 abrió su propio canal de Youtube y publicó su primera canción interpretada por él mismo, Pain. Tres meses después su segundo sencillo, Tokyo Flash, tuvo cierta repercusión en las listas al superar el millón de reproducciones. Gracias a ese primer éxito, firmó un acuerdo de representación con SDR, subsidiaria de Stardust Promotion, para iniciar su carrera profesional.
+
+En 2020 lanzó al mercado strobo, su álbum de debut, con el que logró la certificación de disco de platino a raíz del éxito de varios de sus sencillos. Si bien se trata de un álbum de J-pop, destacó entre la crítica por su fusión de estilos sin ligarse a un género concreto, con influencias del indie pop, rock y hip hop entre otros sonidos. Además de interpretar sus propias canciones, Vaundy compone para otros artistas e incluso edita sus propios videoclips, remixes y diseños de ropa. La canción que mejor funcionó a nivel comercial fue Kaijū no Hanauta, con 31 millones de visionados en Youtube.
+
+Desde entonces, Vaundy ha seguido publicando sencillos y EPs entre los cuales cabe destacar Odoriko, con 49 millones de reproducciones en Youtube (2021); Naked Hero, el segundo opening de Ōsama Ranking (2021), y Chainsaw Blood, el primer ending de Chainsaw Man (2022). También compuso Backlight, uno de los temas que Ado interpreta en la banda sonora de One Piece Film: Red. En septiembre de 2022 dio su primer recital en el Nippon Budokan, y en diciembre del mismo año participó en la 73ª edición del Kōhaku Uta Gassen, la gala musical más prestigiosa de Japón, con dos actuaciones: una por el equipo femenino con Omokage —interpretada por Milet, Aimer e Ikuta Lilas— y otra en solitario por el masculino con Kaijū no Hanauta.
+    </p> <br>
+
+    <div class="w3-container w3-center">
+      <div class="w3-card-4 w3-responsive">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/UM9XNpgrqVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+ <br>
+
+
+  <!-- Termino seccion de artistas -->
+  </div>
+
+  <!-- Seccion de contacto  -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contacto">
+    <h2 class="w3-text-light-grey">Contáctame!</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ciudad de México, MEX</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teléfono: 5560992160</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: elias10david@hotmail.com</p>
+    </div><br>
+    <p>Pongámonos en contacto, mandame un mensaje! :)</p>
+
+    <form action="/action_page.php" target="_blank" name="myForm" onsubmit="return validateForm()">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Asunto" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSAJINI
+        </button>
+      </p>
+    </form>
+
+    <!-- Para validar el formulario :D -->
+    <script>
+      function validateForm() {
+        var name = document.forms["myForm"]["Name"].value;
+        var email = document.forms["myForm"]["Email"].value;
+        var subject = document.forms["myForm"]["Subject"].value;
+        var message = document.forms["myForm"]["Message"].value;
+
+        if (name == "") {
+          alert("Por favor, ingresa tu nombre");
+          return false;
+        }
+
+        if (email == "") {
+          alert("Por favor, ingresa tu email");
+          return false;
+        }
+
+        if (subject == "") {
+          alert("Por favor, ingresa el asunto");
+          return false;
+        }
+
+        if (message == "") {
+          alert("Por favor, ingresa un mensaje");
+          return false;
+        }
+      }
+    </script>
+
+  <!-- Seccion de contacto -->
+  </div>
+
+  <div align="center">
+   <img src="https://media3.giphy.com/media/mYXkkesVtPYzkaupKz/giphy.gif?cid=ecf05e47yi73nv2x2txh32suhml6hor2dieqsllvpmt6f3gj&ep=v1_stickers_search&rid=giphy.gif&ct=s" style="width:50%">
+  </div>
+<!-- Footer. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <a href="https://www.facebook.com/Dont.fck.me/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/mr.cuac/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/MrMiaaau"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/david-elias-gonz%C3%A1lez-garc%C3%ADa-569a9a207/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <a href="https://github.com/se2510"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <p class="w3-small">Gracias por pasarte por mi página!</p>
+</footer>
+
+
+<!--  Aki termina todo  -->
+</div>
+
+</body>
+</html>
